@@ -8,8 +8,10 @@ const port = 5000;
 const cors = require('cors');
 const fileUpload = require('express-fileupload');
 
+
+// ngfgfhgfhgfg
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb+srv://teams700:moles900@cluster0.no9horl.mongodb.net/Shops').then((result) => {
+mongoose.connect('mongodb+srv://sanju:sanju123@cluster0.mochtd4.mongodb.net/Shops').then((result) => {
 
   app.listen(port, () => {
     console.log('listening');
